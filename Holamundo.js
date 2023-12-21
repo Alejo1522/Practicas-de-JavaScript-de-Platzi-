@@ -35,23 +35,38 @@
 
 // //Paso por valor
 
-let x=1
-let y="Hola"
-let z=null
+// let x=1
+// let y="Hola"
+// let z=null
 
-let a = x
-let b = y
-let c = z
+// let a = x
+// let b = y
+// let c = z
 
-console.log(x, y, z, a, b, c)
+// console.log(x, y, z, a, b, c)
 
 //Paso por referencia
 
-let frutas=["Manzana"]
-frutas.push("Pera")
+// let frutas=["Manzana"]
+// frutas.push("Pera")
+// console.log(frutas)
+
+// let electrodomestico=["🎧​"]
+// let copiaDeElectro = electrodomestico
+// electrodomestico.push("💻​")
+// console.log(electrodomestico, copiaDeElectro)
+
+//Paso por referencia parte 2
+
+let frutas={
+    naranja:'🍊​'
+}
+let vegetales=frutas
+vegetales.naranja= '🥦'
 console.log(frutas)
 
-let panes=["🎧​"]
-let copiaDepan = panes
-panes.push("💻​")
-console.log(panes, copiaDepan)
+let ropa = {
+    camisa: '👕'
+}
+ropa.pantalon='👖'
+console.log(ropa)
